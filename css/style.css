@@ -1,0 +1,70 @@
+
+.viuvanegra{
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    position: absolute;
+    transform: scaleX(-1);
+}
+.blur{
+    width: 100vw;
+    height: 100vh;
+    z-index: -998;
+    position: absolute;
+}
+.blur2{
+    width: 24vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -998;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 130px 0px 100px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.cine{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.textocine{
+    color: #f4f4f4;
+    font-family: Jaldi, sans-serif;
+    font-size: 40px;
+
+}
+.botoestopo{
+    display: flex;
+    color: #C7D9E8;
+    font-size: 30px;
+    font-family: Jaldi, sans-serif;
+    gap: 40px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #3D45BF;
+    padding: 12px 30px;
+    border-radius: 50px;
+    width: 300px;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+}
+.textolupa{
+    color: #99A0E8;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+
+}
