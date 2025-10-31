@@ -1,4 +1,8 @@
-
+:root {
+    --primary-color: #3D45BF;
+    --secundary-color: #f4f4f4;
+    --terciary-color: #C7D9E8;
+}
 .viuvanegra{
     width: 100vw;
     height: 100vh;
@@ -36,35 +40,149 @@ header{
 
 }
 .textocine{
-    color: #f4f4f4;
+    color: var(--secundary-color);
     font-family: Jaldi, sans-serif;
     font-size: 40px;
 
 }
 .botoestopo{
     display: flex;
-    color: #C7D9E8;
+    color: var(--terciary-color);
     font-size: 30px;
     font-family: Jaldi, sans-serif;
     gap: 40px;
-
 }
+
 .search{
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #3D45BF;
+    background-color: var(--primary-color);
     padding: 12px 30px;
     border-radius: 50px;
     width: 300px;
 }
+
 .lupa{
     width: 25px;
     height: 25px;
 }
+
 .textolupa{
     color: #99A0E8;
     font-size: 22px;
     font-family: Inter, sans-serif;
 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 130px 0px 95px;
+
+}
+
+.botoesmeio{
+    display: flex;
+    font-family: Jaldi,sans-serif;
+    font-size: 22px;
+    align-items: center;
+    gap: 20px;
+}
+
+.textoup{
+    color: #DFB287;
+    background-color: var(--primary-color);
+    padding: 2px;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.textonow{
+    color: var(--terciary-color);
+}
+
+.action{
+    padding: 100px 0px 0px 0px;
+    font-size: 30px;
+    color: var(--secundary-color);
+    font-family: Jaldi,sans-serif;
+}
+
+.titulo{
+    display: flex;
+    color: var(--secundary-color);
+    font-size: 50px;
+    font-family: Gelasio,sans-serif;
+    gap: 20px;
+}
+.widow{
+    color: #EC2D4E;
+}
+
+.data{
+    display: flex;
+    color: var(--secundary-color);
+    font-family: Jandi, sans-serif;
+    gap: 8px;
+    align-items: center;
+    font-size: 22px;
+    
+}
+.textodata{
+    padding: 0px 4px 0px 0px;
+}
+
+.descricao{
+    color: var(--terciary-color);
+    font-size: 19px;
+    width: 565px;
+    line-height: 1.8;
+    padding: 30px 0px 0px 0px;
+
+}
+
+.book{
+    display: flex;
+    font-family: Jaldi, sans-serif;
+    font-size: 25px;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 0px 0px 0px;
+
+}
+.botaobook{
+    color: #C9EBFE;
+    background-color: #23A9FE;
+    padding: 6px;
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+}
+.textosee{
+    color: #2867B0;
+}
+
+.avaliacoes{
+    display: flex;
+    align-items: center;
+    color: var(--secundary-color);
+    font-size: 30px;
+    font-family: Jaldi, sans-serif;
+    gap: 15px;
+    padding: 70px 0px 0px 0px;
+}
+.imglogo{
+    height: 80px;
+    width: 80px;
+}
+.imgheart{
+    height: 50px;
+    width: 50px;
+}
+.textologo{
+    padding: 0px 45px 0px 0px;
 }
