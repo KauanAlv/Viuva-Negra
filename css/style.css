@@ -3,49 +3,56 @@
     --secundary-color: #f4f4f4;
     --terciary-color: #C7D9E8;
 }
-.viuvanegra{
+
+.viuvanegra {
     width: 100vw;
     height: 100vh;
     z-index: -999;
     position: absolute;
     transform: scaleX(-1);
+    object-fit: cover;
+    object-position: top;
 }
-.blur{
+
+.blur {
     width: 100vw;
     height: 100vh;
     z-index: -998;
     position: absolute;
 }
-.blur2{
+
+.blur2 {
     width: 24vw;
     height: 100vh;
     position: absolute;
     z-index: -998;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 130px 0px 100px;
 }
-.logo{
+
+.logo {
     width: 40px;
     height: 40px;
 }
-.cine{
+
+.cine {
     display: flex;
     align-items: center;
     gap: 10px;
-
 }
-.textocine{
+
+.textocine {
     color: var(--secundary-color);
     font-family: Jaldi, sans-serif;
     font-size: 40px;
-
 }
-.botoestopo{
+
+.botoestopo {
     display: flex;
     color: var(--terciary-color);
     font-size: 30px;
@@ -53,7 +60,7 @@ header{
     gap: 40px;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -63,19 +70,19 @@ header{
     width: 300px;
 }
 
-.lupa{
+.lupa {
     width: 25px;
     height: 25px;
 }
 
-.textolupa{
+.textolupa {
     color: #99A0E8;
     font-size: 22px;
     font-family: Inter, sans-serif;
 
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,60 +90,62 @@ main{
 
 }
 
-.botoesmeio{
+.botoesmeio {
     display: flex;
-    font-family: Jaldi,sans-serif;
+    font-family: Jaldi, sans-serif;
     font-size: 22px;
     align-items: center;
     gap: 20px;
 }
 
-.textoup{
+.textoup {
     color: #DFB287;
     background-color: var(--primary-color);
     padding: 2px;
     border-radius: 50px;
     width: 200px;
     text-align: center;
-    
+
 }
 
-.textonow{
+.textonow {
     color: var(--terciary-color);
 }
 
-.action{
+.action {
     padding: 100px 0px 0px 0px;
     font-size: 30px;
     color: var(--secundary-color);
-    font-family: Jaldi,sans-serif;
+    font-family: Jaldi, sans-serif;
 }
 
-.titulo{
+.titulo {
     display: flex;
     color: var(--secundary-color);
     font-size: 50px;
-    font-family: Gelasio,sans-serif;
+    font-family: Gelasio, sans-serif;
     gap: 20px;
 }
-.widow{
+
+.widow {
     color: #EC2D4E;
 }
 
-.data{
+.data {
     display: flex;
     color: var(--secundary-color);
     font-family: Jandi, sans-serif;
     gap: 8px;
     align-items: center;
     font-size: 22px;
-    
+
 }
-.textodata{
+
+.textodata {
     padding: 0px 4px 0px 0px;
 }
 
-.descricao{
+.descricao {
     color: var(--terciary-color);
     font-size: 19px;
     width: 565px;
@@ -145,7 +154,7 @@ main{
 
 }
 
-.book{
+.book {
     display: flex;
     font-family: Jaldi, sans-serif;
     font-size: 25px;
@@ -154,7 +163,8 @@ main{
     padding: 70px 0px 0px 0px;
 
 }
-.botaobook{
+
+.botaobook  {
     color: #C9EBFE;
     background-color: #23A9FE;
     padding: 6px;
@@ -162,11 +172,12 @@ main{
     width: 250px;
     text-align: center;
 }
-.textosee{
+
+.textosee {
     color: #2867B0;
 }
 
-.avaliacoes{
+.avaliacoes {
     display: flex;
     align-items: center;
     color: var(--secundary-color);
@@ -175,14 +186,34 @@ main{
     gap: 15px;
     padding: 70px 0px 0px 0px;
 }
-.imglogo{
+
+.imglogo {
     height: 80px;
     width: 80px;
 }
-.imgheart{
+
+.imgheart {
     height: 50px;
     width: 50px;
 }
-.textologo{
+
+.textologo {
     padding: 0px 45px 0px 0px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-450%);
+}
+
+.setaesq {
+    margin-left: 20px;
+}
+
+.setadir {
+    margin-right: 20px;
 }
