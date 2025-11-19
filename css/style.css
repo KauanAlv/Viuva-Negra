@@ -109,20 +109,20 @@ header {
     color: var(--terciary-color);
 }
 
+.action {
+    order: 2;
+    padding: 100px 0px 0px 0px;
+    font-size: 30px;
+    color: var(--secundary-color);
+    font-family: Jaldi, sans-serif;
+}
+
 /* ESTILIZAÇÃO DO MAIN */
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0px 130px 0px 95px;
-
-}
-
-.action {
-    padding: 100px 0px 0px 0px;
-    font-size: 30px;
-    color: var(--secundary-color);
-    font-family: Jaldi, sans-serif;
 }
 
 .titulo {
