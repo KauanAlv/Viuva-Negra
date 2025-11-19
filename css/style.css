@@ -110,7 +110,6 @@ header {
 }
 
 .action {
-    order: 2;
     padding: 100px 0px 0px 0px;
     font-size: 30px;
     color: var(--secundary-color);
@@ -256,7 +255,6 @@ main {
         align-items: center;
         height: 40px;
         width: 210px;
-        order: 1;
     }
     .lupa{
         height: 20px;
@@ -264,7 +262,6 @@ main {
         align-items: center;
     }
     .botoesmeio{
-        order: 1;
         width: 50%;
         padding: 5px 0px 0px 0px;
         font-size: 18px;
